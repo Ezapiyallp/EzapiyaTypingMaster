@@ -1,3 +1,10 @@
 pyinstaller --onefile EzapiyaTypingMaster.py
 
 python -m PyInstaller --hidden-import=PyQt5.QtPrintSupport --copy-metadata scanpy --noupx --onefile --windowed  EzapiyaTypingMaster.py
+
+
+
+
+
+
+this is new Change in lappy

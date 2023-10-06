@@ -1,0 +1,341 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>968</width>
+    <height>615</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <widget class="QLabel" name="label">
+    <property name="geometry">
+     <rect>
+      <x>0</x>
+      <y>0</y>
+      <width>971</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>11</pointsize>
+      <weight>75</weight>
+      <bold>true</bold>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: rgb(220, 0, 110);
+color: rgb(255, 255, 255);</string>
+    </property>
+    <property name="text">
+     <string>Ezapiya Typing Master</string>
+    </property>
+    <property name="alignment">
+     <set>Qt::AlignCenter</set>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_2">
+    <property name="geometry">
+     <rect>
+      <x>0</x>
+      <y>520</y>
+      <width>971</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>10</pointsize>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: rgb(220, 0, 110);
+color: rgb(255, 255, 255);</string>
+    </property>
+    <property name="text">
+     <string>EZAPIA TYPING MASTER. POWERED BY Ezapiya Software Research And Development LLP.</string>
+    </property>
+    <property name="alignment">
+     <set>Qt::AlignCenter</set>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_3">
+    <property name="geometry">
+     <rect>
+      <x>240</x>
+      <y>470</y>
+      <width>541</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>10</pointsize>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">color: rgb(0, 0, 0);</string>
+    </property>
+    <property name="text">
+     <string>Visit our Website: www.ezapiya.com Contact Details +919373552952 </string>
+    </property>
+    <property name="alignment">
+     <set>Qt::AlignCenter</set>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_4">
+    <property name="geometry">
+     <rect>
+      <x>30</x>
+      <y>55</y>
+      <width>331</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>12</pointsize>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">color: rgb(0, 39, 118);</string>
+    </property>
+    <property name="text">
+     <string>Select Chapter For Practice Session:</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="btn_back">
+    <property name="geometry">
+     <rect>
+      <x>800</x>
+      <y>410</y>
+      <width>131</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>11</pointsize>
+      <weight>75</weight>
+      <bold>true</bold>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">color: rgb(255, 255, 255);
+background-color: rgb(0, 0, 0);
+border-top-right-radius: 20px;
+border-top-left-radius: 20px;
+border-bottom-left-radius: 20px;
+border-bottom-right-radius: 20px;</string>
+    </property>
+    <property name="text">
+     <string>Back</string>
+    </property>
+   </widget>
+   <widget class="QListWidget" name="lstChapter">
+    <property name="geometry">
+     <rect>
+      <x>30</x>
+      <y>100</y>
+      <width>451</width>
+      <height>341</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>MS Shell Dlg 2</family>
+      <pointsize>12</pointsize>
+      <weight>50</weight>
+      <italic>false</italic>
+      <bold>false</bold>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">color: rgb(0, 41, 125);
+font: 12pt &quot;MS Shell Dlg 2&quot;;</string>
+    </property>
+    <item>
+     <property name="text">
+      <string>English Lesson No.1</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>English Lesson No.2</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>English Lesson No.3</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>English Lesson No.4</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>English Lesson No.5</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>English Lesson No.6</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>English Lesson No.7</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>English Lesson No.8</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>English Lesson No.9</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>English Lesson No.10</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>English Lesson No.11</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>English Lesson No.12</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>English Lesson No.13</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>English Lesson No.14</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>English Lesson No.15</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>English Lesson No.16</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>English Lesson No.17</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>English Lesson No.18</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>English Lesson No.19</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>English Lesson No.20</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>English Lesson No.21</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>English Lesson No.22</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>English Lesson No.23</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>English Lesson No.24</string>
+     </property>
+    </item>
+   </widget>
+   <widget class="QPushButton" name="btn_Start">
+    <property name="geometry">
+     <rect>
+      <x>630</x>
+      <y>414</y>
+      <width>131</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>14</pointsize>
+      <weight>75</weight>
+      <bold>true</bold>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">color: rgb(255, 255, 255);
+background-color: rgb(0, 136, 0);
+border-top-right-radius: 20px;
+border-top-left-radius: 20px;
+border-bottom-left-radius: 20px;
+border-bottom-right-radius: 20px;</string>
+    </property>
+    <property name="text">
+     <string>Start </string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_man">
+    <property name="geometry">
+     <rect>
+      <x>700</x>
+      <y>110</y>
+      <width>261</width>
+      <height>291</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+  </widget>
+  <widget class="QMenuBar" name="menubar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>968</width>
+     <height>26</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QStatusBar" name="statusbar"/>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

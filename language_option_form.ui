@@ -1,0 +1,375 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1044</width>
+    <height>611</height>
+   </rect>
+  </property>
+  <property name="font">
+   <font>
+    <pointsize>11</pointsize>
+    <weight>75</weight>
+    <bold>true</bold>
+   </font>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <widget class="QLabel" name="label">
+    <property name="geometry">
+     <rect>
+      <x>0</x>
+      <y>0</y>
+      <width>1051</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>12</pointsize>
+      <weight>75</weight>
+      <bold>true</bold>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">color: rgb(255, 255, 255);
+background-color: rgb(220, 0, 110);</string>
+    </property>
+    <property name="text">
+     <string>Ezapiya Typing Master</string>
+    </property>
+    <property name="alignment">
+     <set>Qt::AlignCenter</set>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_2">
+    <property name="geometry">
+     <rect>
+      <x>0</x>
+      <y>510</y>
+      <width>1051</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>11</pointsize>
+      <weight>50</weight>
+      <bold>false</bold>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">color: rgb(255, 255, 255);
+background-color: rgb(220, 0, 110);</string>
+    </property>
+    <property name="text">
+     <string>EZAPIA TYPING MASTER. POWERED BY Ezapiya Software Research And Development LLP.</string>
+    </property>
+    <property name="alignment">
+     <set>Qt::AlignCenter</set>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_3">
+    <property name="geometry">
+     <rect>
+      <x>247</x>
+      <y>460</y>
+      <width>581</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>11</pointsize>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">color: rgb(0, 0, 0);</string>
+    </property>
+    <property name="text">
+     <string>Visit our Website: www.ezapiya.com Contact Details +919373552952 </string>
+    </property>
+    <property name="alignment">
+     <set>Qt::AlignCenter</set>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="btn_english">
+    <property name="geometry">
+     <rect>
+      <x>350</x>
+      <y>76</y>
+      <width>131</width>
+      <height>101</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>MS Shell Dlg 2</family>
+      <pointsize>12</pointsize>
+      <weight>75</weight>
+      <italic>false</italic>
+      <bold>true</bold>
+     </font>
+    </property>
+    <property name="layoutDirection">
+     <enum>Qt::LeftToRight</enum>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">border-top-right-radius: 20px;
+color: rgb(255, 255, 255);
+background-color: rgb(220, 0, 110);
+border-top-left-radius: 20px;
+border-bottom-left-radius: 20px;
+border-bottom-right-radius: 20px;
+</string>
+    </property>
+    <property name="text">
+     <string>ENGLISH</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="btn_hindi">
+    <property name="geometry">
+     <rect>
+      <x>645</x>
+      <y>78</y>
+      <width>131</width>
+      <height>101</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>MS Shell Dlg 2</family>
+      <pointsize>12</pointsize>
+      <weight>75</weight>
+      <italic>false</italic>
+      <bold>true</bold>
+     </font>
+    </property>
+    <property name="layoutDirection">
+     <enum>Qt::LeftToRight</enum>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">border-top-right-radius: 20px;
+color: rgb(255, 255, 255);
+background-color: rgb(220, 0, 110);
+border-top-left-radius: 20px;
+border-bottom-left-radius: 20px;
+border-bottom-right-radius: 20px;
+</string>
+    </property>
+    <property name="text">
+     <string>HINDI</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="btn_marathi">
+    <property name="geometry">
+     <rect>
+      <x>500</x>
+      <y>78</y>
+      <width>131</width>
+      <height>101</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>MS Shell Dlg 2</family>
+      <pointsize>12</pointsize>
+      <weight>75</weight>
+      <italic>false</italic>
+      <bold>true</bold>
+     </font>
+    </property>
+    <property name="layoutDirection">
+     <enum>Qt::LeftToRight</enum>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">border-top-right-radius: 20px;
+color: rgb(255, 255, 255);
+background-color: rgb(220, 0, 110);
+border-top-left-radius: 20px;
+border-bottom-left-radius: 20px;
+border-bottom-right-radius: 20px;
+</string>
+    </property>
+    <property name="text">
+     <string>MARATHI</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="btn_font">
+    <property name="geometry">
+     <rect>
+      <x>350</x>
+      <y>191</y>
+      <width>131</width>
+      <height>101</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>MS Shell Dlg 2</family>
+      <pointsize>12</pointsize>
+      <weight>75</weight>
+      <italic>false</italic>
+      <bold>true</bold>
+     </font>
+    </property>
+    <property name="layoutDirection">
+     <enum>Qt::LeftToRight</enum>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">border-top-right-radius: 20px;
+color: rgb(255, 255, 255);
+background-color: rgb(220, 0, 110);
+border-top-left-radius: 20px;
+border-bottom-left-radius: 20px;
+border-bottom-right-radius: 20px;
+</string>
+    </property>
+    <property name="text">
+     <string>Programming 
+font </string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_girl">
+    <property name="geometry">
+     <rect>
+      <x>830</x>
+      <y>60</y>
+      <width>181</width>
+      <height>301</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>10</pointsize>
+     </font>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_girl_2">
+    <property name="geometry">
+     <rect>
+      <x>90</x>
+      <y>50</y>
+      <width>221</width>
+      <height>401</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="btn_about_us">
+    <property name="geometry">
+     <rect>
+      <x>501</x>
+      <y>310</y>
+      <width>131</width>
+      <height>101</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>MS Shell Dlg 2</family>
+      <pointsize>12</pointsize>
+      <weight>75</weight>
+      <bold>true</bold>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">border-top-right-radius: 20px;
+color: rgb(255, 255, 255);
+background-color: rgb(220, 0, 110);
+border-top-left-radius: 20px;
+border-bottom-left-radius: 20px;
+border-bottom-right-radius: 20px;
+</string>
+    </property>
+    <property name="text">
+     <string>ABOUT US</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="btn_punjabi">
+    <property name="geometry">
+     <rect>
+      <x>502</x>
+      <y>190</y>
+      <width>131</width>
+      <height>101</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>MS Shell Dlg 2</family>
+      <pointsize>12</pointsize>
+      <weight>75</weight>
+      <bold>true</bold>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">border-top-right-radius: 20px;
+color: rgb(255, 255, 255);
+background-color: rgb(220, 0, 110);
+border-top-left-radius: 20px;
+border-bottom-left-radius: 20px;
+border-bottom-right-radius: 20px;
+</string>
+    </property>
+    <property name="text">
+     <string>Punjabi</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="btn_gujarti">
+    <property name="geometry">
+     <rect>
+      <x>650</x>
+      <y>191</y>
+      <width>131</width>
+      <height>101</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>MS Shell Dlg 2</family>
+      <pointsize>12</pointsize>
+      <weight>75</weight>
+      <bold>true</bold>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">border-top-right-radius: 20px;
+color: rgb(255, 255, 255);
+background-color: rgb(220, 0, 110);
+border-top-left-radius: 20px;
+border-bottom-left-radius: 20px;
+border-bottom-right-radius: 20px;
+</string>
+    </property>
+    <property name="text">
+     <string>Gujarati</string>
+    </property>
+   </widget>
+  </widget>
+  <widget class="QMenuBar" name="menubar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>1044</width>
+     <height>21</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QStatusBar" name="statusbar"/>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
